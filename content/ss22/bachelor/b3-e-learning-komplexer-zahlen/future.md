@@ -17,11 +17,11 @@ the game, we focused on the parts that were **most in demand** and put the other
 <br>**As mentioned above, we still have some ideas, which we briefly summarize below:**<br>
 
 **Level 4️⃣:**<br> There should be some improvements to hit the asteroids better. The functionalities have changed a bit. The player
-                   no longer enters the angle and the length, but again only a point can be set in the coordinate system. That sounds good,
-                   but the data coming from the alien is in angle and longitude. He wanted to take the calculations away from the players, 
-                   but with the new system, they now have to be converted back to Cartesian coordinates. 
-                   <br>**Game idea:** Longitude |z| = 16 and angle phi = 30 degrees. Later in the level, the data is supplied in Euler form, which in this case would be 16 * e^30j.
-                   What is the corresponding Cartesian coordinate or where is the asteroid?<br><br>
+no longer enters the angle and the length, but again only a point can be set in the coordinate system. That sounds good,
+but the data coming from the alien is in angle and longitude. He wanted to take the calculations away from the players, 
+but with the new system, they now have to be converted back to Cartesian coordinates. 
+<br>**Game idea:** Longitude |z| = 16 and angle phi = 30 degrees. Later in the level, the data is supplied in Euler form, which in this case would be 16 * e^30j.
+What is the corresponding Cartesian coordinate or where is the asteroid?<br><br>
 **Level 5️⃣:**<br>What was that? It seems that another spacecraft is trying to send jamming signals. They are no longer able 
 to send a missile. To overcome this, you must match your signal to that of the aliens. <br>
 **Game idea:** an animation shows your current signal and the jamming signal. You must first drag and drop it to match the 
